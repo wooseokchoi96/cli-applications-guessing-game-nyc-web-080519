@@ -1,6 +1,6 @@
 # Code your solution here!
 def run_guessing_game
-  random = rand(1..6)
+  random = rand(1..6).to_s
   puts "Guess a number between 1 and 6"
   result = gets.chomp
   if result == "exit"
